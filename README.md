@@ -5,7 +5,15 @@ https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html
 Use the following cloudformation template `cfn/vpc.yaml` or the use the [VPC wizard](https://eu-central-1.console.aws.amazon.com/vpc/home?region=eu-central-1#wizardSelector:) to quickly create a new VPC (choose the 2nd option - with private and public subnets). 
 
 Make sure to create an elastic IP before going through the VPC wizard - you can use this [link (for Frankfurt)](https://eu-central-1.console.aws.amazon.com/ec2/v2/home?region=eu-central-1#AllocateAddress:). 
+  
+ ### Select VPC with private and public subnets
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alfallouji/CLOUDHSM-WORKSHOP/master/vpc1.png" /></p>
 
+### Configure the VPC
+<p align="center">
+  
+  <img src="https://raw.githubusercontent.com/alfallouji/CLOUDHSM-WORKSHOP/master/vpc2.png" /></p>
 
 
 ### Step 2 - Create a CloudHSM cluster
