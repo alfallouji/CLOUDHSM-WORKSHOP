@@ -12,6 +12,7 @@ Make sure to create an elastic IP before going through the VPC wizard - you can 
 
 
  ### Select VPC with private and public subnets
+ [Use VPC wizard](https://eu-central-1.console.aws.amazon.com/vpc/home?region=eu-central-1#wizardSelector:)
 <p align="center">
   <img src="https://raw.githubusercontent.com/alfallouji/CLOUDHSM-WORKSHOP/master/vpc1.png" /></p>
 
