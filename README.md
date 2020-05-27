@@ -15,6 +15,7 @@ Make sure to create an elastic IP before going through the VPC wizard - you can 
   <img src="https://raw.githubusercontent.com/alfallouji/CLOUDHSM-WORKSHOP/master/vpc1.png" /></p>
 
 ### Configure the VPC
+Give it a name and select the elastic IP address that you have created.
 <p align="center">
   
   <img src="https://raw.githubusercontent.com/alfallouji/CLOUDHSM-WORKSHOP/master/vpc2.png" /></p>
