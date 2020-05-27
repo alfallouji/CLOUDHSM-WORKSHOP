@@ -2,10 +2,11 @@
 https://docs.aws.amazon.com/cloudhsm/latest/userguide/introduction.html
 
 ## Step 1 - VPC creation
-Use the following cloudformation template `cfn/vpc.yaml` or the use the [VPC wizard](https://eu-central-1.console.aws.amazon.com/vpc/home?region=eu-central-1#wizardSelector:) to quickly create a new VPC (choose the 2nd option - with private and public subnets). 
+Use the [VPC wizard](https://eu-central-1.console.aws.amazon.com/vpc/home?region=eu-central-1#wizardSelector:) to quickly create a new VPC (choose the 2nd option - with private and public subnets). 
 
-Make sure to create an elastic IP before going through the VPC wizard - you can use this [link (for Frankfurt)](https://eu-central-1.console.aws.amazon.com/ec2/v2/home?region=eu-central-1#AllocateAddress:). 
 ### Create an Elastic IP
+Make sure to create an elastic IP before going through the VPC wizard - you can use this [link (for Frankfurt)](https://eu-central-1.console.aws.amazon.com/ec2/v2/home?region=eu-central-1#AllocateAddress:). 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/alfallouji/CLOUDHSM-WORKSHOP/master/eip.png" /></p>
 
