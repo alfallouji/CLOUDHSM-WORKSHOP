@@ -23,35 +23,35 @@ Give it a name and select the elastic IP address that you have created.
   <img src="https://raw.githubusercontent.com/alfallouji/CLOUDHSM-WORKSHOP/master/vpc2.png" /></p>
 
 
-### Step 2 - Create a CloudHSM cluster
+## Step 2 - Create a CloudHSM cluster
 https://docs.aws.amazon.com/cloudhsm/latest/userguide/create-cluster.html
 
-### Step 3 - Review cluster security group
+## Step 3 - Review cluster security group
 https://docs.aws.amazon.com/cloudhsm/latest/userguide/configure-sg.html
 
-### Step 4 - Launch an Amazon EC2 Client Instance
+## Step 4 - Launch an Amazon EC2 Client Instance
 https://docs.aws.amazon.com/cloudhsm/latest/userguide/launch-client-instance.html
 
-### Step 5 - Connect Amazon EC2 Instance to AWS CloudHSM Cluster
+## Step 5 - Connect Amazon EC2 Instance to AWS CloudHSM Cluster
 https://docs.aws.amazon.com/cloudhsm/latest/userguide/configure-sg-client-instance.html
 
-### Step 6 - Create an HSM
+## Step 6 - Create an HSM
 https://docs.aws.amazon.com/cloudhsm/latest/userguide/create-hsm.html
 
-### Step 7 - Initialize cluster
+## Step 7 - Initialize cluster
 https://docs.aws.amazon.com/cloudhsm/latest/userguide/initialize-cluster.html
 
-### Step 8 - Install and Configure the AWS CloudHSM Client (Linux)
+## Step 8 - Install and Configure the AWS CloudHSM Client (Linux)
 https://docs.aws.amazon.com/cloudhsm/latest/userguide/install-and-configure-client-linux.html
 
-### Step 9 - Activate the Cluster
+## Step 9 - Activate the Cluster
 https://docs.aws.amazon.com/cloudhsm/latest/userguide/activate-cluster.html
 
-### Step 10 - Test using the PKCS or JCE
-#### Java version with JCE
+## Step 10 - Test using the PKCS or JCE
+### Java version with JCE
 https://github.com/aws-samples/aws-cloudhsm-jce-examples
 
 You can test with the LoginRunner, AESGCMEncryptDecryptRunner, etc.
 
-#### C version with PKCS
+### C version with PKCS
 https://github.com/aws-samples/aws-cloudhsm-pkcs11-examples
